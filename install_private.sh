@@ -9,4 +9,4 @@ fi
 
 DOTFILES_DIR="$HOME/.dotfiles"
 git clone git@github.com:m76-labs/dotfiles.git "$DOTFILES_DIR"
-exec bash "$DOTFILES_DIR/.local/bin/m76_bootstrap"
+exec bash "$DOTFILES_DIR/.local/bin/m76_bootstrap" </dev/tty
